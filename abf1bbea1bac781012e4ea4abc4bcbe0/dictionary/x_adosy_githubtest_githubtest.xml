@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="task" label="GitHubTest" max_length="40" name="x_adosy_githubtest_githubtest" type="collection"/>
+</database>
