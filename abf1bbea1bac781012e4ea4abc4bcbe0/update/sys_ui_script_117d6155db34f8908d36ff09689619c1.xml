@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_script">
+    <sys_ui_script action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description/>
+        <global>false</global>
+        <name>x_adosy_githubtest.Test new UI script</name>
+        <script><![CDATA[var x_adosy_githubtest = x_adosy_githubtest || {};
+
+x_adosy_githubtest.Test new UI script = (function() {
+	"use strict";
+
+/* set your private variables and functions here. For example: 
+	var privateVar = 0; 
+	function private_function() {
+		return ++privateVar;
+	}
+*/
+
+/* Share variables between multiple UI scripts by adding them to your scope object. For example: 
+	x_adosy_githubtest.sharedVar = 0; 
+
+ Then access them in your scripts the same way. For example: 
+	function get_shared() {
+		return x_adosy_githubtest.sharedVar;
+	}
+*/
+
+	return {
+
+/* set your public API here. For example:
+		incrementAndReturnPrivateVar: function() {
+			return private_function();
+		},
+*/
+		type:  "Test new UI script"
+	};
+})();
+]]></script>
+        <script_name>Test new UI script</script_name>
+        <sys_class_name>sys_ui_script</sys_class_name>
+        <sys_created_by>matamsha</sys_created_by>
+        <sys_created_on>2021-06-16 11:30:00</sys_created_on>
+        <sys_id>117d6155db34f8908d36ff09689619c1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_adosy_githubtest.Test new UI script</sys_name>
+        <sys_package display_value="GitHubTest" source="x_adosy_githubtest">abf1bbea1bac781012e4ea4abc4bcbe0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="GitHubTest">abf1bbea1bac781012e4ea4abc4bcbe0</sys_scope>
+        <sys_update_name>sys_ui_script_117d6155db34f8908d36ff09689619c1</sys_update_name>
+        <sys_updated_by>matamsha</sys_updated_by>
+        <sys_updated_on>2021-06-16 11:30:00</sys_updated_on>
+        <ui_type>0</ui_type>
+        <use_scoped_format>false</use_scoped_format>
+    </sys_ui_script>
+</record_update>
